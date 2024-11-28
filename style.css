@@ -1,0 +1,193 @@
+/* cor linha #EDEDEC */
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 15pt;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: whitesmoke;
+}
+
+header {
+  width: 100%;
+  background-color: #C22A2E;
+  display: flex;
+  align-content: center;
+  text-align: center;
+}
+
+footer {
+  background-color: #c90000;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+#logo {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  color: white;
+  padding: 0;
+  margin-bottom: -25px;
+}
+
+#titulo {
+  margin: 0 auto;
+  margin-right: 800px;
+  padding: 0;
+  margin-bottom: -100px;
+}
+
+header #titulo h1 {
+  text-align: center;
+}
+
+main {
+  background-color: white;
+  background-image: url("src/gurren-lagann-fundo-2.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  /* background-size: 1545px; */
+  margin: 35px 160px;
+  border-radius: 15px;
+}
+
+#poster {
+  display: inline-block;
+  background-color: white;
+  padding-bottom: 20px;
+  margin: 15px;
+  border: 2px solid #EDEDEC;
+  border-radius: 7px;
+  margin-top: 150px;
+}
+
+img {
+  border-radius: 7px;
+  height: 200px;
+}
+
+#h1 {
+  font-size: 35pt;
+  text-align: center;
+  margin-top: -100px;
+}
+
+#personagem {
+  background-color: #C22A2E; /*#c90000;*/
+  color: white;
+  width: 100%;
+}
+
+main>#personagem>h1 {
+  text-align: center;
+  margin: 15px;
+}
+
+main>#wiki>p {
+  margin: 10px;
+}
+
+#per_simon {
+  background-image: url(src/simon.jpg);
+}
+
+#per_kamina {
+  background-image: url(src/kamina.png);
+}
+
+#per_yoko {
+  background-image: url(src/yoko.jpg);
+}
+
+#per_nia {
+  background-image: url(src/nia.jpg);
+}
+
+#per_leeron {
+  background-image: url(src/leeron.jpg);
+}
+
+#per_rossiu {
+  background-image: url(src/rossiu.jpg);
+}
+
+#per_viral {
+  background-image: url(src/viral.jpg);
+}
+
+.per {
+  margin: 50px;
+  margin-right: 0;
+  background-size: 120%;
+  background-repeat: no-repeat;
+  width: 180px;
+  height: 222px;
+  min-width: 180px;
+  border-radius: 10px;
+  border: 2px solid rgb(205, 203, 223);
+  background-position: center;
+  transition: background-size ease-in-out 0.5s, background-position-y ease-in-out 0.5s, color ease 0.5s, box-shadow ease-in-out 0.5s;
+}
+
+.per>h3 {
+  font-size: 20pt;
+  margin: 5px;
+  text-shadow:  4px 4px 5px rgba(0, 0, 0, 0.7);
+}
+
+.per:hover {
+  color: yellow;
+  background-size: 135%;
+  box-shadow: inset 0 0 50px rgba(0, 0, 0, 0.7);
+}
+
+#div_pai {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.caixa_personagem {
+  display: flex;
+}
+
+.painel {
+  margin: 50px 50px 50px 0;
+  background-color: rgb(192, 187, 221);
+  color: rgb(8, 8, 15);
+  overflow: hidden;
+  white-space: normal;
+  border: solid 2px rgb(51, 32, 32);
+  border-width: 0px;
+  border-radius: 10px;
+  height: 217px;
+  width: 0;
+  transition: 0.8s;
+  word-wrap: break-word;      /* Allow breaking the word at the edge of the container */
+  overflow-wrap: break-word;  /* Alternative property for text wrapping */
+ 
+}
+
+.text  {
+
+width:61vw;
+height: 217px;
+}
+.painel.open {
+  border-width: 2px;
+width: 61vw;
+height: 217px;
+
+}
+
+#h1_curiosidades {
+  text-align: center
+}
+
+#titulo>img {
+  width: 130%;
+}
+
+#logo>img {
+  height: 50%;
+}
