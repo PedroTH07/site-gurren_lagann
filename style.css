@@ -16,7 +16,7 @@ header {
 }
 
 footer {
-  background-color: #c90000;
+  background-color: #C22A2E;
   color: white;
   padding: 10px;
   text-align: center;
@@ -74,7 +74,8 @@ img {
 }
 
 #personagem {
-  background-color: #C22A2E; /*#c90000;*/
+  background-color: #C22A2E;
+  /*#c90000;*/
   color: white;
   width: 100%;
 }
@@ -116,6 +117,10 @@ main>#wiki>p {
   background-image: url(src/viral.jpg);
 }
 
+#per_kittan {
+  background-image: url(src/kittan.jpg);
+}
+
 .per {
   margin: 50px;
   margin-right: 0;
@@ -133,7 +138,7 @@ main>#wiki>p {
 .per>h3 {
   font-size: 20pt;
   margin: 5px;
-  text-shadow:  4px 4px 5px rgba(0, 0, 0, 0.7);
+  text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.7);
 }
 
 .per:hover {
@@ -163,20 +168,23 @@ main>#wiki>p {
   height: 217px;
   width: 0;
   transition: 0.8s;
-  word-wrap: break-word;      /* Allow breaking the word at the edge of the container */
-  overflow-wrap: break-word;  /* Alternative property for text wrapping */
- 
+  word-wrap: break-word;
+  /* Allow breaking the word at the edge of the container */
+  overflow-wrap: break-word;
+  /* Alternative property for text wrapping */
+
 }
 
-.text  {
+.text {
 
-width:61vw;
-height: 217px;
+  width: 61vw;
+  height: 217px;
 }
+
 .painel.open {
   border-width: 2px;
-width: 61vw;
-height: 217px;
+  width: 61vw;
+  height: 217px;
 
 }
 
@@ -190,4 +198,20 @@ height: 217px;
 
 #logo>img {
   height: 50%;
+}
+
+#wiki p {
+  padding: 30px;
+  padding-top: 0;
+  font-size: 1.1em;
+}
+
+#wiki h2 {
+  padding-left: 30px;
+  font-size: 2.5em;
+}
+
+#wiki h3 {
+  padding-left: 25px;
+  font-size: 2em;
 }
