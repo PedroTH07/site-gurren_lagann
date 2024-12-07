@@ -216,3 +216,52 @@ main>#wiki>p {
   padding-left: 25px;
   font-size: 2em;
 }
+
+.text p {
+  padding: 15px;
+}
+
+.caixa {
+  background-color: #C22A2E;
+  margin: 120px;
+  margin-bottom: 0px;
+  padding: 1px;
+  border-radius: 10px;
+  /* border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px; */
+  color: #EDEDEC;
+  font-size: 2em;
+  text-align: center;
+  font-weight: bold;
+  transition: ease-in 0.2s;
+}
+
+.caixa:hover {
+  cursor: pointer;
+  color: yellow;
+}
+
+.textArea {
+  background-color: #EDEDEC;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin: 120px;
+  margin-top: 0px;
+  padding: 0px;
+  height: 0px;
+  min-height: 0;
+  overflow: hidden;
+  font-size: 1.1em;
+  transition: ease-in 0.3s;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+.textArea.active {
+  padding: 10px;
+  min-height: 130px;
+}
+
+#curiosidades {
+  overflow: auto;
+}

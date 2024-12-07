@@ -15,3 +15,21 @@ for (i = 0; i < acc.length; i++) {
         }
     });
 }
+
+var caixa = document.getElementsByClassName('caixa')
+
+for (let x = 0; x < caixa.length; x++) {
+    caixa[x].addEventListener('click', function () {
+        var text = this.nextElementSibling;
+
+        if (text.classList.contains('active')) {
+            text.classList.remove('active')
+            caixa[x].style.borderBottomRightRadius = '10px'
+            caixa[x].style.borderBottomLeftRadius = '10px'
+        } else {
+            text.classList.add('active')
+            caixa[x].style.borderBottomRightRadius = '0px'
+            caixa[x].style.borderBottomLeftRadius = '0px'
+        }
+    })
+}
